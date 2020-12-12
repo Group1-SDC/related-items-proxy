@@ -52,8 +52,8 @@ module.exports = {
     bundle: 'bundle.js',
   },
   service3: {
-    api: '/data',
-    url: 'http://54.200.202.68:3003/',
+    api: '/data/:id/',
+    url: 'http://127.0.0.1:3003/',
     bundle: 'bundle.js',
   },
   service4: {
